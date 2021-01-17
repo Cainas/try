@@ -1,0 +1,63 @@
+.resume {
+    line-height: 60px;
+}
+
+#about {
+    color: rgb(37, 58, 4);
+    font-size: 50px;
+    margin-bottom: 70px;
+    ;
+}
+
+#information {
+    display: inline;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+.chapter {
+    margin-top: 50px;
+    ;
+    display: block;
+    color: rgb(37, 58, 4);
+    font-size: 35px;
+}
+
+
+/* img {
+  margin:1px;
+  border:1px none transparent;
+  height:35px;
+  width:35px;
+  } */
+
+img {
+    margin: 1px;
+    border: 1px none transparent;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    /* vertical-align: -8px; */
+}
+
+p {
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: inline;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+.content2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
