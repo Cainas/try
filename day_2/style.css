@@ -1,63 +1,73 @@
-.resume {
-    line-height: 60px;
-}
+* {
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    }
 
-#about {
-    color: rgb(37, 58, 4);
-    font-size: 50px;
-    margin-bottom: 70px;
-    ;
-}
+    .table{
+        margin:5px;
+    }
 
-#information {
-    display: inline;
-    margin-left: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: black;
-}
+    .title{
+        width:800px;
+        height:50px;
+        border:1px solid black;
+    }
 
-.chapter {
-    margin-top: 50px;
-    ;
-    display: block;
-    color: rgb(37, 58, 4);
-    font-size: 35px;
-}
+    .main{
+        width:800px;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+    }
 
+    .information{
+        width:800px;
+        height:140px;
+        border:1px solid black;
+        border-top:none;
+        display:flex;
+    }
 
-/* img {
-  margin:1px;
-  border:1px none transparent;
-  height:35px;
-  width:35px;
-  } */
+    .lable{
+        border-right: 1px solid black; 
+        padding:0px 10px;
+    }
+    
+    .content{
+        margin-left:5px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
 
-img {
-    margin: 1px;
-    border: 1px none transparent;
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    /* vertical-align: -8px; */
-}
+    .picture{
+        display:flex;
+        align-items:center;
+    }
 
-p {
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-}
+    h1{
+        text-align: center;
+        line-height: 50px;
+    }
 
-.content {
-    display: inline;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    margin-right: 50px;
-}
+    h2{
+        font-size: 20px;
+        text-align: center;
+        line-height: 140px;
+    }
 
-.content2 {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
+    p{
+        margin-right: 10px;
+    }
+
+    p span{
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    img{
+        width:25px;
+        height:25px;
+        margin:0px 5px;
+    }
